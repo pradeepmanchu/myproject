@@ -1,0 +1,75 @@
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid red;
+  }
+  .box{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 2%;
+  }
+    
+  .whole{
+    padding: 5%;
+  }
+  .bgColor{
+    background-color:rgb(23, 5, 69);
+    color: white;
+  }
+  .fontcolor{
+    color:rgb(23, 5, 69);
+  }
+  .propsalbox{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+  }
+  .favbox{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.12), 0 8px 8px rgba(0,0,0,0.12), 0 16px 16px rgba(0,0,0,0.12);
+    cursor: pointer;
+  }
+  @media (max-width: 1200px) {
+    .box, .whole {
+        padding: 4%;
+    }
+}
+
+@media (max-width: 992px) {
+    .box, .whole {
+        padding: 3%;
+    }
+
+    .favbox, .propsalbox {
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 3px 3px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media (max-width: 768px) {
+    input[type=text] {
+        padding: 10px 15px;
+        margin: 6px 0;
+    }
+
+    .box, .whole {
+        padding: 2%;
+    }
+
+    .favbox, .propsalbox {
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 2px 2px rgba(0, 0, 0, 0.08), 0 3px 3px rgba(0, 0, 0, 0.08), 0 4px 4px rgba(0, 0, 0, 0.08);
+    }
+}
+
+@media (max-width: 576px) {
+    input[type=text] {
+        padding: 8px 10px;
+        margin: 5px 0;
+    }
+
+    .box, .whole {
+        padding: 1%;
+    }
+
+    .favbox, .propsalbox {
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), 0 2px 2px rgba(0, 0, 0, 0.05), 0 3px 3px rgba(0, 0, 0, 0.05), 0 4px 4px rgba(0, 0, 0, 0.05);
+    }
+}
